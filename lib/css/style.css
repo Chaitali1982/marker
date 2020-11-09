@@ -1,0 +1,106 @@
+#basemaps-wrapper{
+    color: blue;
+    
+}
+.leaflet-bar{
+    background-color: pink;
+}
+.row{
+   background-color: #4aa1f3;
+   font-size: smaller;
+}
+.modal-footer{
+  background-color: #4aa1f3;
+  width: 90%;
+ 
+}
+
+.modal-header{
+  background-color: #4aa1f3;
+  width: 90%;
+
+
+}
+
+.modal-content{
+  background-color: #4aa1f3;
+  width: 90%;
+  
+
+}
+#row{
+  width: 90%;
+
+
+  background-color: #4aa1f3;
+  color: white;
+  border-radius: 25px;
+}
+.modal-body{
+  background-color: #4aa1f3;
+  width: 90%;
+  
+
+}
+
+select { 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  -ms-appearance: none; 
+  appearance: none; 
+  outline: 0; 
+  background-color:pink;
+  ; 
+  background-image: none; 
+  border:1px solid black; 
+  color:black;
+} 
+.select { 
+  position: relative; 
+  display: block; 
+  width: 23em; 
+  height: 3.5em; 
+  line-height: 3; 
+  background: #2C3E50; 
+  overflow: hidden; 
+  border-radius: .25em; 
+  color:black;
+} 
+select { 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  padding: 0 0 0 .5em; 
+  color:black; 
+  cursor: pointer; 
+  font-size: smaller;
+} 
+select::-ms-expand { 
+  display: none; 
+}  
+.select::after { 
+  content: '\25BC'; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0;
+  padding: 0 1em; 
+  background:rgb(57, 59, 187);
+  pointer-events: none; 
+} 
+.select:hover::after { 
+  color: #F39C12; 
+} 
+
+<!-- For different browsers -->
+.select::after { 
+  -webkit-transition: .25s all ease; 
+  -o-transition: .25s all ease; 
+  transition: .25s all ease; 
+} 
+
+
+
+option{
+  color:white;
+}
